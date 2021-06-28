@@ -8,9 +8,11 @@ const webSocketServer = new WebSocket.Server({
   port: port
 });
 
+// Connection listener
 webSocketServer.on('connection', (websocket) => {
   websocket.send('Welcome to the messenger!');
 
+  // Message listener
   websocket.on('message', (data) => {
     let message;
 
