@@ -4,7 +4,6 @@
   "main": "index.js",
   "author": "Dejan Nadlacki",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ws": "^7.5.0"
